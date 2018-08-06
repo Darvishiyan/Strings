@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:shadowColor="#3000"
+            android:shadowDx="1"
+            android:onClick="openSpannableExample"
+            android:text="Spannable Example"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:textAllCaps="false"
+            android:textColor="@color/item" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:shadowColor="#3000"
+            android:shadowDx="1"
+            android:onClick="openSpannableFlagExample"
+            android:text="Spannable Flag Example"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:textAllCaps="false"
+            android:textColor="@color/item" />
+
+    </LinearLayout>
+
+</RelativeLayout>

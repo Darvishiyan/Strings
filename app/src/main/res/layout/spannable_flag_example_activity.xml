@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="without change text"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_INCLUSIVE_INCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_INCLUSIVE_EXCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_EXCLUSIVE_INCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_EXCLUSIVE_EXCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="16dp"
+            android:background="#666" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change text after set span"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_INCLUSIVE_INCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_INCLUSIVE_EXCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_EXCLUSIVE_INCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#ddd"
+            android:padding="2dp"
+            android:text="SPAN_EXCLUSIVE_EXCLUSIVE"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</ScrollView>
